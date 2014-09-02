@@ -28,8 +28,10 @@ public class BasicJPanel extends JPanel{
       made visible or moved or whatever.
     */
     public void paintComponent(Graphics g){
-        g.drawLine(10,10,450,450); // Draw a line from (10,10) to (150,150)
+        g.drawLine(200,10,100,450); // Draw a line from (10,10) to (150,150)
         g.drawOval(200, 200, 50, 50);
+        g.drawOval(200, 250, 50, 75);
+        g.drawOval(200, 160, 50, 40);
     }
 
     public static void main(String arg[]){
